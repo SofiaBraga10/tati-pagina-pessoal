@@ -1,25 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import React from 'react';
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+function App (){
+  return(
+    <main>
+      <div className ='container'>
+            <Título>
+              <h1>
+                Todos os países
+              </h1>
+              </Título>
       </div>
-      <div className="card">
-       <h1>Sofia Pereira Braga</h1>
-      </div>
-    </div>
+    </main>
   )
-}
+  }
 
 export default App
+
+// npm run dev
